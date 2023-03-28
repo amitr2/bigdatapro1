@@ -95,7 +95,7 @@ Resources:
       ExecutionProperty:   
         MaxConcurrentRuns: 2  
       Name: 'cleaning-data111'
-      GlueVersion: "3.0"
+      GlueVersion: 3.0
 
   MyCrawler1:
     Type: AWS::Glue::Crawler
