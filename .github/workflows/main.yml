@@ -30,7 +30,7 @@ jobs:
       - name: Deploy to AWS CloudFormation
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
-          name: insta-test-stack111
-          template: BigDataFinalCFT1.yaml
+          name: insta-test-stack1112
+          template: BigDataFinalCFT111.yaml
           no-fail-on-empty-changeset: "1"
           
