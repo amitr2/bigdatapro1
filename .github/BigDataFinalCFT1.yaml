@@ -63,7 +63,7 @@ Resources:
       FunctionName: myS3Trigger111
       Handler: index.lambda_handler
       Runtime: python3.8
-      Role: arn:aws:iam::374710540470:role/LabRole
+      Role: arn:aws:iam::804979549707:role/LabRole
       Code:
         ZipFile: |
           import json
@@ -101,7 +101,7 @@ Resources:
     Type: AWS::Glue::Crawler
     Properties:
       Name: locationcraw1112
-      Role: arn:aws:iam::374710540470:role/LabRole
+      Role: arn:aws:iam::804979549707:role/LabRole
       Targets:
         S3Targets:
           - Path: s3://instadataset/finalinstaoutput/locations.parquet
@@ -114,7 +114,7 @@ Resources:
     Type: AWS::Glue::Crawler
     Properties:
       Name: postcraw1112
-      Role: arn:aws:iam::374710540470:role/LabRole
+      Role: arn:aws:iam::804979549707:role/LabRole
       Targets:
         S3Targets:
           - Path: s3://instadataset/finalinstaoutput/posts.parquet
@@ -127,7 +127,7 @@ Resources:
     Type: AWS::Glue::Crawler
     Properties:
       Name: profilecraw1112
-      Role: arn:aws:iam::374710540470:role/LabRole
+      Role: arn:aws:iam::804979549707:role/LabRole
       Targets:
         S3Targets:
           - Path: s3://instadataset/finalinstaoutput/profiles.parquet
