@@ -89,12 +89,12 @@ Resources:
     Properties:
       Role: 'LabRole'   
       Command:   
-        Name: glueetl111
+        Name: glueetl
         ScriptLocation: !Sub 's3://finalinstainput/normalized_script1.py'
       AllocatedCapacity: 5  
       ExecutionProperty:   
         MaxConcurrentRuns: 2  
-      Name: 'cleaning-data'
+      Name: 'cleaning-data11'
       GlueVersion: 3.0
 
   MyCrawler1:
