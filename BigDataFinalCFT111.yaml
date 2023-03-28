@@ -94,7 +94,7 @@ Resources:
       AllocatedCapacity: 5  
       ExecutionProperty:   
         MaxConcurrentRuns: 2  
-      Name: 'cleaning-data111'
+      Name: 'cleaning-data'
       GlueVersion: 3.0
 
   MyCrawler1:
