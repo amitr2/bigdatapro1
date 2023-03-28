@@ -90,7 +90,7 @@ Resources:
       Role: 'LabRole'   
       Command:   
         Name: glueetl111
-        ScriptLocation: !Sub 's3://instagraminput1/normalized_script.py'
+        ScriptLocation: !Sub 's3://instadataset/finalinstainput/normalized_script1.py'
       AllocatedCapacity: 5  
       ExecutionProperty:   
         MaxConcurrentRuns: 2  
