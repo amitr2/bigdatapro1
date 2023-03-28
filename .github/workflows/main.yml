@@ -21,9 +21,9 @@ jobs:
         id: creds
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ASIA3W3EFEYFYNF2ACPM
-          aws-secret-access-key: xwBpmr/Bz2OeQOZ0UVsOl6FSKrSGSmI2EyKH2ZAG
-          aws-session-token: FwoGZXIvYXdzEID//////////wEaDF+NprkIi+F3RNLH2iLFAfR3bhmnDu9aXOZ2Qpz56M2O1UDNkWs24PoK0qzAyuUNoYnaZrh/dwqd9oW4+moEm8RWsOCOMGtAamLaqtR3lvNIliVaq4UUym4aWiIY1ynUs1MgBbFCTbNc+tyipiF0Mw4TYSzSfZwgGGpaeP8XIsCbubhU8A51dUIntcICdKh+RS3o4aGfGy/82mdhB16+C8owXVoXefRfULOgk+MbP01rs/Y2qMcVkfK8gfjzmnzmJgiIUU2IlmYIGGW7Jmjyo0ffIRDEKNXxi6EGMi1Hl662X7O0vDdCuwIS9hKmxOSNp9Yxgoa8eeyfYca5L4axFV2CnyZLG0YOPV0=
+          aws-access-key-id: ASIA3W3EFEYFV5O5XT5G
+          aws-secret-access-key: UCWg2C31+mqUPiDue7iYUvYPIrVmdERjlSXhquYy
+          aws-session-token: FwoGZXIvYXdzEIP//////////wEaDJdRSWmd1LzPATBaViLFASFyvAhAj3v22xIOhcZ49eFTUjlGXDroN/JwTlwPkdBrxu8pvAM7G0W0fybB+EtJ6JtP0DgeHyH+31x1mJ4ozYvuEm6yhxSH1jzUjo9qFW63gHC3X4MBMkkYlD97hkvKrOgD4PHCtU0VSDcCkHUDq+Yucl9gqzIV0uQAGDDI7Xzq4YecSC1keM9/E4RBXA9AmZdsIf6EqB19114rKnEGpk8Vgi+SZ8NT1yOsYjvGgQi6GjpruzAioyzJGcy8Yp/dPGSUxSveKIXSjKEGMi2qH5oO++b9d3tImsS5E4aXErYdIRj3CFW/gfK7xkMRXM8AIhx1zWF6Dm4k+Ys=
           aws-region: 'us-east-1' 
 
       # Deploy to AWS CloudFormation
