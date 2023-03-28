@@ -90,7 +90,7 @@ Resources:
       Role: 'LabRole'   
       Command:   
         Name: glueetl111
-        ScriptLocation: !Sub 's3://instadataset/finalinstainput/normalized_script1.py'
+        ScriptLocation: !Sub 's3://finalinstainput/normalized_script1.py'
       AllocatedCapacity: 5  
       ExecutionProperty:   
         MaxConcurrentRuns: 2  
@@ -104,7 +104,7 @@ Resources:
       Role: arn:aws:iam::804979549707:role/LabRole
       Targets:
         S3Targets:
-          - Path: s3://instadataset/finalinstaoutput/locations.parquet
+          - Path: s3://finalinstaoutput/locations.parquet
       DatabaseName: demo
       SchemaChangePolicy:
         UpdateBehavior: UPDATE_IN_DATABASE
@@ -117,7 +117,7 @@ Resources:
       Role: arn:aws:iam::804979549707:role/LabRole
       Targets:
         S3Targets:
-          - Path: s3://instadataset/finalinstaoutput/posts.parquet
+          - Path: s3://finalinstaoutput/posts.parquet
       DatabaseName: demo
       SchemaChangePolicy:
         UpdateBehavior: UPDATE_IN_DATABASE
@@ -130,7 +130,7 @@ Resources:
       Role: arn:aws:iam::804979549707:role/LabRole
       Targets:
         S3Targets:
-          - Path: s3://instadataset/finalinstaoutput/profiles.parquet
+          - Path: s3://finalinstaoutput/profiles.parquet
       DatabaseName: demo
       SchemaChangePolicy:
         UpdateBehavior: UPDATE_IN_DATABASE
